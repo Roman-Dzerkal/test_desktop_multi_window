@@ -1,0 +1,36 @@
+name: test
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.3 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  window_manager: ^0.3.1
+  stacked: ^3.2.0
+  desktop_multi_window: ^0.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter_icons:
+  windows:
+    generate: true
+    image_path: "assets/app.png"
+    icon_size: 256
+
+flutter:
+  uses-material-design: true
+
+  assets:
+      - assets/
